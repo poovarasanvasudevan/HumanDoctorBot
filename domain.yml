@@ -1,0 +1,64 @@
+intents:
+  - greet
+  - affirm
+  - deny
+  - inform_user_problem
+  - inform_user_location
+  - inform_user_gender
+  - inform_user_doctor_preference
+  - inform_user_problem_check
+  - bye
+
+entities:
+  - user_problem
+  - user_location
+  - user_gender
+  - user_doctor_preference
+  - user_problem_check
+
+slots:
+  requested_slot:
+    type: unfeaturized
+  user_problem:
+    type: text
+  user_location:
+    type: text
+  user_gender:
+    type: text
+  user_doctor_preference:
+    type: text
+  user_problem_check:
+    type: bool
+
+templates:
+  utter_greet:
+    - "Hey =)"
+  utter_ask_user_problem_check:
+    - "Is this is your problem :?"
+  utter_ask_user_problem:
+    - "What is your Problem?"
+  utter_ask_user_location:
+    - "Where are you from ?"
+  utter_ask_user_gender:
+    - "Your gender?"
+  utter_ask_user_doctor_preference:
+    - "What doctor you Prefer"
+  utter_bye:
+    - "Bye o/"
+  utter_useful:
+    - "Was this information useful?"
+  utter_thanks:
+    - "Thank you! Bye..."
+
+actions:
+  - utter_greet
+  - utter_ask_user_problem
+  - utter_ask_user_location
+  - utter_ask_user_gender
+  - utter_ask_user_doctor_preference
+  - utter_bye
+  - utter_useful
+  - utter_thanks
+  - utter_ask_user_problem_check
+  - action.ActionUserProblemForm
+  - action.ActionListSlots

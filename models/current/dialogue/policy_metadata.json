@@ -1,0 +1,34 @@
+{
+  "action_fingerprints": {
+    "action_listen": {
+      "slots": [
+        "user_problem_check",
+        "user_doctor_preference",
+        "user_gender",
+        "user_location"
+      ]
+    },
+    "action_user_problem_form": {
+      "slots": [
+        "user_location",
+        "user_gender",
+        "user_problem",
+        "user_doctor_preference",
+        "requested_slot"
+      ]
+    },
+    "utter_bye": {
+      "slots": []
+    }
+  },
+  "rasa_core": "0.10.1",
+  "max_histories": [
+    3,
+    3
+  ],
+  "ensemble_name": "rasa_core.policies.ensemble.SimplePolicyEnsemble",
+  "policy_names": [
+    "rasa_core.policies.memoization.MemoizationPolicy",
+    "rasa_core.policies.keras_policy.KerasPolicy"
+  ]
+}
