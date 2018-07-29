@@ -34,4 +34,14 @@
 * goodbye
     - utter_goodbye
     - export
+    
+## Generated Story 4952756101901290916
+* Default Welcome Intent
+    - Greeting
+* Greeting
+    - Greeting
+* Bye
+    - Bye
+    - export
+
 
