@@ -1,0 +1,41 @@
+{
+  "id": "5441bca9-3caa-4e84-896d-a27df3051806",
+  "parentId": "8c428c1b-0bf0-402a-93b6-4912d9b91193",
+  "rootParentId": "8c428c1b-0bf0-402a-93b6-4912d9b91193",
+  "name": "Location - custom",
+  "auto": true,
+  "contexts": [
+    "Location-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "Location.Location-custom",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "38f5a28c-e846-4abc-b666-f532c704fabc",
+          "dataType": "@sys.duration",
+          "name": "duration",
+          "value": "$duration",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Ohh, nice to see you be there for $duration"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1532866915,
+  "fallbackIntent": false,
+  "events": []
+}

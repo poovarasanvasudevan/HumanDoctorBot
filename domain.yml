@@ -4,12 +4,14 @@ intents:
   - mood_affirm
   - mood_deny
   - mood_great
+  - mood_unhappy
   - ask_help
   - ask_doctor_speciality
   - ask_user_location
-  - mood_unhappy
 
 slots:
+  name:
+    type: text
   doctorspeciality:
     type: text
   userproblem:

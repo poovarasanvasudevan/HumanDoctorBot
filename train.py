@@ -7,6 +7,7 @@ import logging
 from rasa_core.agent import Agent
 from rasa_core.policies.keras_policy import KerasPolicy
 from rasa_core.policies.memoization import MemoizationPolicy
+from rasa_nlu.model import Trainer
 
 if __name__ == '__main__':
     logging.basicConfig(level='INFO')
@@ -14,8 +15,7 @@ if __name__ == '__main__':
     training_data_file = './data/stories.md'
     model_path = './models/dialogue'
 
-    agent = Agent('domain.yml',
-                  policies=[MemoizationPolicy(max_history=5), KerasPolicy()])
+    agent = Agent('domain.yml',policies=[MemoizationPolicy(max_history=5), KerasPolicy()])
 
     training_data = agent.load_data(training_data_file)
     agent.train(

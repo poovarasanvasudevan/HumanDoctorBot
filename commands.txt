@@ -1,0 +1,1 @@
+python -m rasa_nlu.train --config nlu_config.yml --data models/current/nlu/training_data.json --path projects

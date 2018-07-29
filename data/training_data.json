@@ -224,6 +224,90 @@
             "entity": "userproblem"
           }
         ]
+      },
+      {
+        "text": "I am from London",
+        "intent": "ask_user_location",
+        "entities": [
+          {
+            "start": 10,
+            "end": 16,
+            "value": "London",
+            "entity": "userlocation"
+          }
+        ]
+      },
+      {
+        "text": "My Zip code is 632692",
+        "intent": "ask_user_location",
+        "entities": [
+          {
+            "start": 15,
+            "end": 21,
+            "value": "632692",
+            "entity": "userlocation"
+          }
+        ]
+      },
+      {
+        "text": "is any eye doctor available",
+        "intent": "ask_doctor_speciality",
+        "entities": [
+          {
+            "start": 7,
+            "end": 10,
+            "value": "eye",
+            "entity": "userproblem"
+          }
+        ]
+      },
+      {
+        "text": "eye problem",
+        "intent": "ask_doctor_speciality",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "eye",
+            "entity": "userproblem"
+          }
+        ]
+      },
+      {
+        "text": "Is any knee Specialist there",
+        "intent": "ask_doctor_speciality",
+        "entities": [
+          {
+            "start": 7,
+            "end": 11,
+            "value": "knee",
+            "entity": "doctorspeciality"
+          }
+        ]
+      },
+      {
+        "text": "knee pain",
+        "intent": "ask_doctor_speciality",
+        "entities": [
+          {
+            "start": 0,
+            "end": 4,
+            "value": "knee",
+            "entity": "userproblem"
+          }
+        ]
+      },
+      {
+        "text": "problem with my ears",
+        "intent": "ask_doctor_speciality",
+        "entities": [
+          {
+            "start": 16,
+            "end": 20,
+            "value": "ears",
+            "entity": "userproblem"
+          }
+        ]
       }
     ],
     "regex_features": [],

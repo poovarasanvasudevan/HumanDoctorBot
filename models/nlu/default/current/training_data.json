@@ -1,0 +1,279 @@
+{
+  "rasa_nlu_data": {
+    "common_examples": [
+      {
+        "intent": "Bye",
+        "text": "Ok see you later"
+      },
+      {
+        "intent": "Bye",
+        "text": "tata bye bye"
+      },
+      {
+        "intent": "Bye",
+        "text": "good bye"
+      },
+      {
+        "intent": "Bye",
+        "text": "ok carry on"
+      },
+      {
+        "intent": "Bye",
+        "text": "See you later"
+      },
+      {
+        "intent": "Bye",
+        "text": "Ok bye bye"
+      },
+      {
+        "intent": "Default Welcome Intent",
+        "text": "i am going well"
+      },
+      {
+        "intent": "Default Welcome Intent",
+        "text": "just going to say hi"
+      },
+      {
+        "intent": "Default Welcome Intent",
+        "text": "heya"
+      },
+      {
+        "intent": "Default Welcome Intent",
+        "text": "hello hi"
+      },
+      {
+        "intent": "Default Welcome Intent",
+        "text": "howdy"
+      },
+      {
+        "intent": "Default Welcome Intent",
+        "text": "hey there"
+      },
+      {
+        "intent": "Default Welcome Intent",
+        "text": "hi there"
+      },
+      {
+        "intent": "Default Welcome Intent",
+        "text": "greetings"
+      },
+      {
+        "intent": "Default Welcome Intent",
+        "text": "hey"
+      },
+      {
+        "intent": "Default Welcome Intent",
+        "text": "long time no see"
+      },
+      {
+        "intent": "Default Welcome Intent",
+        "text": "hello"
+      },
+      {
+        "intent": "Default Welcome Intent",
+        "text": "lovely day isn't it"
+      },
+      {
+        "intent": "Default Welcome Intent",
+        "text": "I greet you"
+      },
+      {
+        "intent": "Default Welcome Intent",
+        "text": "hello again"
+      },
+      {
+        "intent": "Default Welcome Intent",
+        "text": "hi"
+      },
+      {
+        "intent": "Default Welcome Intent",
+        "text": "hello there"
+      },
+      {
+        "intent": "Default Welcome Intent",
+        "text": "a good day"
+      },
+      {
+        "intent": "Greeting",
+        "text": "name"
+      },
+      {
+        "intent": "Greeting",
+        "text": "Do you have a name?"
+      },
+      {
+        "intent": "Greeting",
+        "text": "What is your name?"
+      },
+      {
+        "intent": "Language",
+        "entities": [
+          {
+            "start": 14,
+            "end": 21,
+            "value": "english",
+            "entity": "language"
+          }
+        ],
+        "text": "can you speak english"
+      },
+      {
+        "intent": "Language",
+        "entities": [
+          {
+            "start": 9,
+            "end": 16,
+            "value": "english",
+            "entity": "language"
+          }
+        ],
+        "text": "you know english"
+      },
+      {
+        "intent": "Language",
+        "entities": [
+          {
+            "start": 14,
+            "end": 20,
+            "value": "french",
+            "entity": "language"
+          }
+        ],
+        "text": "you can speak french"
+      },
+      {
+        "intent": "Language",
+        "text": "What language you know"
+      },
+      {
+        "intent": "Location - custom",
+        "entities": [
+          {
+            "start": 11,
+            "end": 18,
+            "value": "5 years",
+            "entity": "duration"
+          }
+        ],
+        "text": "Since last 5 years"
+      },
+      {
+        "intent": "Location - custom",
+        "entities": [
+          {
+            "start": 14,
+            "end": 21,
+            "value": "5 years",
+            "entity": "duration"
+          }
+        ],
+        "text": "I think about 5 years"
+      },
+      {
+        "intent": "Location - custom",
+        "entities": [
+          {
+            "start": 6,
+            "end": 13,
+            "value": "5 years",
+            "entity": "duration"
+          }
+        ],
+        "text": "about 5 years"
+      },
+      {
+        "intent": "Location - custom",
+        "entities": [
+          {
+            "start": 4,
+            "end": 11,
+            "value": "5 years",
+            "entity": "duration"
+          }
+        ],
+        "text": "for 5 years"
+      },
+      {
+        "intent": "Location",
+        "entities": [
+          {
+            "start": 28,
+            "end": 34,
+            "value": "London",
+            "entity": "location"
+          }
+        ],
+        "text": "i belongs to beautiful city London"
+      },
+      {
+        "intent": "Location",
+        "entities": [
+          {
+            "start": 0,
+            "end": 7,
+            "value": "chennai",
+            "entity": "location"
+          }
+        ],
+        "text": "chennai"
+      },
+      {
+        "intent": "Location",
+        "entities": [
+          {
+            "start": 25,
+            "end": 32,
+            "value": "chennai",
+            "entity": "location"
+          }
+        ],
+        "text": "I am from beautiful city chennai"
+      },
+      {
+        "intent": "Location",
+        "entities": [
+          {
+            "start": 0,
+            "end": 7,
+            "value": "chennai",
+            "entity": "location"
+          }
+        ],
+        "text": "chennai is my location"
+      },
+      {
+        "intent": "Location",
+        "entities": [
+          {
+            "start": 15,
+            "end": 22,
+            "value": "chennai",
+            "entity": "location"
+          }
+        ],
+        "text": "my location is chennai"
+      },
+      {
+        "intent": "Location",
+        "entities": [
+          {
+            "start": 10,
+            "end": 17,
+            "value": "Chennai",
+            "entity": "location"
+          }
+        ],
+        "text": "I am from Chennai"
+      }
+    ],
+    "regex_features": [],
+    "entity_synonyms": [
+      {
+        "value": "english",
+        "synonyms": [
+          "language"
+        ]
+      }
+    ]
+  }
+}
