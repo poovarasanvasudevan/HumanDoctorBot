@@ -2,232 +2,228 @@
   "rasa_nlu_data": {
     "common_examples": [
       {
+        "text": "hey",
         "intent": "greet",
-        "text": "hey"
+        "entities": []
       },
       {
+        "text": "hello",
         "intent": "greet",
-        "text": "hello"
+        "entities": []
       },
       {
+        "text": "hi",
         "intent": "greet",
-        "text": "hi"
+        "entities": []
       },
       {
+        "text": "good morning",
         "intent": "greet",
-        "text": "hello there"
+        "entities": []
       },
       {
+        "text": "good evening",
         "intent": "greet",
-        "text": "good morning"
+        "entities": []
       },
       {
+        "text": "hey there",
         "intent": "greet",
-        "text": "good evening"
+        "entities": []
       },
       {
-        "intent": "greet",
-        "text": "moin"
+        "text": "bye",
+        "intent": "goodbye",
+        "entities": []
       },
       {
-        "intent": "greet",
-        "text": "hey there"
+        "text": "goodbye",
+        "intent": "goodbye",
+        "entities": []
       },
       {
-        "intent": "greet",
-        "text": "let's go"
+        "text": "see you around",
+        "intent": "goodbye",
+        "entities": []
       },
       {
-        "intent": "greet",
-        "text": "hey dude"
+        "text": "see you later",
+        "intent": "goodbye",
+        "entities": []
       },
       {
-        "intent": "greet",
-        "text": "goodmorning"
+        "text": "yes",
+        "intent": "mood_affirm",
+        "entities": []
       },
       {
-        "intent": "greet",
-        "text": "goodevening"
+        "text": "indeed",
+        "intent": "mood_affirm",
+        "entities": []
       },
       {
-        "intent": "greet",
-        "text": "good afternoon"
+        "text": "of course",
+        "intent": "mood_affirm",
+        "entities": []
       },
       {
-        "intent": "bye",
-        "text": "good by"
+        "text": "that sounds good",
+        "intent": "mood_affirm",
+        "entities": []
       },
       {
-        "intent": "bye",
-        "text": "see you later"
+        "text": "correct",
+        "intent": "mood_affirm",
+        "entities": []
       },
       {
-        "intent": "bye",
-        "text": "good night"
+        "text": "no",
+        "intent": "mood_deny",
+        "entities": []
       },
       {
-        "intent": "bye",
-        "text": "good afternoon"
+        "text": "never",
+        "intent": "mood_deny",
+        "entities": []
       },
       {
-        "intent": "bye",
-        "text": "bye"
+        "text": "I don't think so",
+        "intent": "mood_deny",
+        "entities": []
       },
       {
-        "intent": "bye",
-        "text": "goodbye"
+        "text": "don't like that",
+        "intent": "mood_deny",
+        "entities": []
       },
       {
-        "intent": "bye",
-        "text": "have a nice day"
+        "text": "no way",
+        "intent": "mood_deny",
+        "entities": []
       },
       {
-        "intent": "bye",
-        "text": "see you around"
+        "text": "not really",
+        "intent": "mood_deny",
+        "entities": []
       },
       {
-        "intent": "bye",
-        "text": "bye bye"
+        "text": "perfect",
+        "intent": "mood_great",
+        "entities": []
       },
       {
-        "intent": "bye",
-        "text": "see you later"
+        "text": "very good",
+        "intent": "mood_great",
+        "entities": []
       },
       {
-        "intent": "affirm",
-        "text": "yes"
+        "text": "great",
+        "intent": "mood_great",
+        "entities": []
       },
       {
-        "intent": "affirm",
-        "text": "indeed"
+        "text": "amazing",
+        "intent": "mood_great",
+        "entities": []
       },
       {
-        "intent": "affirm",
-        "text": "of course"
+        "text": "wonderful",
+        "intent": "mood_great",
+        "entities": []
       },
       {
-        "intent": "affirm",
-        "text": "that sounds good"
+        "text": "I am feeling very good",
+        "intent": "mood_great",
+        "entities": []
       },
       {
-        "intent": "affirm",
-        "text": "correct"
+        "text": "I am great",
+        "intent": "mood_great",
+        "entities": []
       },
       {
-        "intent": "deny",
-        "text": "no"
+        "text": "I'm good",
+        "intent": "mood_great",
+        "entities": []
       },
       {
-        "intent": "deny",
-        "text": "never"
+        "text": "sad",
+        "intent": "mood_unhappy",
+        "entities": []
       },
       {
-        "intent": "deny",
-        "text": "I don't think so"
+        "text": "very sad",
+        "intent": "mood_unhappy",
+        "entities": []
       },
       {
-        "intent": "deny",
-        "text": "don't like that"
+        "text": "unhappy",
+        "intent": "mood_unhappy",
+        "entities": []
       },
       {
-        "intent": "deny",
-        "text": "no way"
+        "text": "bad",
+        "intent": "mood_unhappy",
+        "entities": []
       },
       {
-        "intent": "inform_user_problem",
+        "text": "very bad",
+        "intent": "mood_unhappy",
+        "entities": []
+      },
+      {
+        "text": "awful",
+        "intent": "mood_unhappy",
+        "entities": []
+      },
+      {
+        "text": "terrible",
+        "intent": "mood_unhappy",
+        "entities": []
+      },
+      {
+        "text": "not very good",
+        "intent": "mood_unhappy",
+        "entities": []
+      },
+      {
+        "text": "extremly sad",
+        "intent": "mood_unhappy",
+        "entities": []
+      },
+      {
+        "text": "so sad",
+        "intent": "mood_unhappy",
+        "entities": []
+      },
+      {
+        "text": "What is your problem?",
+        "intent": "ask_help",
+        "entities": []
+      },
+      {
+        "text": "I need a Cardiologist",
+        "intent": "ask_doctor_speciality",
         "entities": [
           {
-            "start": 22,
-            "end": 25,
+            "start": 9,
+            "end": 21,
+            "value": "Cardiologist",
+            "entity": "doctorspeciality"
+          }
+        ]
+      },
+      {
+        "text": "I have a pain in my eye",
+        "intent": "ask_doctor_speciality",
+        "entities": [
+          {
+            "start": 20,
+            "end": 23,
             "value": "eye",
-            "entity": "user_problem"
+            "entity": "userproblem"
           }
-        ],
-        "text": "i Have a problem with eye"
-      },
-      {
-        "intent": "inform_user_problem",
-        "entities": [
-          {
-            "start": 22,
-            "end": 29,
-            "value": "stomach",
-            "entity": "user_problem"
-          }
-        ],
-        "text": "i Have a problem with stomach"
-      },
-      {
-        "intent": "inform_user_problem",
-        "entities": [
-          {
-            "start": 10,
-            "end": 13,
-            "value": "leg",
-            "entity": "user_problem"
-          }
-        ],
-        "text": "pain with leg"
-      },
-      {
-        "intent": "inform_user_gender",
-        "entities": [
-          {
-            "start": 0,
-            "end": 4,
-            "value": "male",
-            "entity": "user_gender"
-          }
-        ],
-        "text": "male"
-      },
-      {
-        "intent": "inform_user_gender",
-        "entities": [
-          {
-            "start": 0,
-            "end": 6,
-            "value": "female",
-            "entity": "user_gender"
-          }
-        ],
-        "text": "female"
-      },
-      {
-        "intent": "inform_user_doctor_preference",
-        "entities": [
-          {
-            "start": 0,
-            "end": 4,
-            "value": "male",
-            "entity": "user_doctor_preference"
-          }
-        ],
-        "text": "male"
-      },
-      {
-        "intent": "inform_user_doctor_preference",
-        "entities": [
-          {
-            "start": 0,
-            "end": 6,
-            "value": "female",
-            "entity": "user_doctor_preference"
-          }
-        ],
-        "text": "female"
-      },
-      {
-        "intent": "inform_user_location",
-        "text": "my location is is 12345"
-      },
-      {
-        "intent": "inform_user_location",
-        "text": "12345 is my location"
-      },
-      {
-        "intent": "inform_user_location",
-        "text": "loction 12345"
+        ]
       }
     ],
     "regex_features": [],

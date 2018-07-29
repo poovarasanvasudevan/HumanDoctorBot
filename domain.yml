@@ -1,64 +1,68 @@
 intents:
   - greet
-  - affirm
-  - deny
-  - inform_user_problem
-  - inform_user_location
-  - inform_user_gender
-  - inform_user_doctor_preference
-  - inform_user_problem_check
-  - bye
-
-entities:
-  - user_problem
-  - user_location
-  - user_gender
-  - user_doctor_preference
-  - user_problem_check
+  - goodbye
+  - mood_affirm
+  - mood_deny
+  - mood_great
+  - ask_help
+  - ask_doctor_speciality
+  - ask_user_location
+  - mood_unhappy
 
 slots:
-  requested_slot:
-    type: unfeaturized
-  user_problem:
+  doctorspeciality:
+    type: text
+  userproblem:
     type: text
   user_location:
     type: text
-  user_gender:
-    type: text
-  user_doctor_preference:
-    type: text
-  user_problem_check:
-    type: bool
 
-templates:
-  utter_greet:
-    - "Hey =)"
-  utter_ask_user_problem_check:
-    - "Is this is your problem :?"
-  utter_ask_user_problem:
-    - "What is your Problem?"
-  utter_ask_user_location:
-    - "Where are you from ?"
-  utter_ask_user_gender:
-    - "Your gender?"
-  utter_ask_user_doctor_preference:
-    - "What doctor you Prefer"
-  utter_bye:
-    - "Bye o/"
-  utter_useful:
-    - "Was this information useful?"
-  utter_thanks:
-    - "Thank you! Bye..."
+entities:
+ - doctorspeciality
+ - userproblem
+ - userlocation
 
 actions:
-  - utter_greet
-  - utter_ask_user_problem
-  - utter_ask_user_location
-  - utter_ask_user_gender
-  - utter_ask_user_doctor_preference
-  - utter_bye
-  - utter_useful
-  - utter_thanks
-  - utter_ask_user_problem_check
-  - action.ActionUserProblemForm
-  - action.ActionListSlots
+- utter_greet
+- utter_cheer_up
+- utter_did_that_help
+- utter_happy
+- utter_help
+- utter_goodbye
+- utter_find_doctor
+- utter_ask_location
+
+templates:
+  utter_find_doctor:
+  - text : "Doctor with which speciality you need / or What is yout problem ?"
+
+  utter_ask_location:
+  - text : "Where do you from (Zip Code)?"
+
+  utter_help:
+  - text: "How can I Help you ?"
+    buttons :
+      - title : "Find the Doctor"
+        payload : "findthedoctor"
+      - title : "Book The Appointment"
+        payload : "bookappoinment"
+  utter_greet:
+  - text: "Hey! How are you?"
+    buttons:
+    - title: "great"
+      payload: "great"
+    - title: "super sad"
+      payload: "super sad"
+
+  utter_cheer_up:
+  - text: "Here is something to cheer you up:"
+    image: "https://i.imgur.com/nGF1K8f.jpg"
+
+  utter_did_that_help:
+  - text: "Did that help you?"
+
+  utter_happy:
+  - text: "Great carry on!"
+
+  utter_goodbye:
+  - text: "Bye"

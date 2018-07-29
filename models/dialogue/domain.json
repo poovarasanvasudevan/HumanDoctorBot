@@ -1,0 +1,30 @@
+{
+  "states": [
+    "intent_greet",
+    "intent_goodbye",
+    "intent_mood_affirm",
+    "intent_mood_deny",
+    "intent_mood_great",
+    "intent_ask_help",
+    "intent_ask_doctor_speciality",
+    "intent_ask_user_location",
+    "intent_mood_unhappy",
+    "entity_doctorspeciality",
+    "entity_userproblem",
+    "entity_userlocation",
+    "slot_doctorspeciality_0",
+    "slot_user_location_0",
+    "slot_userproblem_0",
+    "prev_action_listen",
+    "prev_action_restart",
+    "prev_action_default_fallback",
+    "prev_utter_greet",
+    "prev_utter_cheer_up",
+    "prev_utter_did_that_help",
+    "prev_utter_happy",
+    "prev_utter_help",
+    "prev_utter_goodbye",
+    "prev_utter_find_doctor",
+    "prev_utter_ask_location"
+  ]
+}
