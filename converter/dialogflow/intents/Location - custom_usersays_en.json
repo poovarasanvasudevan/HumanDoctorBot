@@ -1,0 +1,74 @@
+[
+  {
+    "id": "e666fc8f-362c-4499-baaf-4df9d287f6d9",
+    "data": [
+      {
+        "text": "Since last ",
+        "userDefined": false
+      },
+      {
+        "text": "5 years",
+        "alias": "duration",
+        "meta": "@sys.duration",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1532866915
+  },
+  {
+    "id": "d715501f-e99e-4f2b-a2e9-6c641f568224",
+    "data": [
+      {
+        "text": "I think about ",
+        "userDefined": false
+      },
+      {
+        "text": "5 years",
+        "alias": "duration",
+        "meta": "@sys.duration",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1532866915
+  },
+  {
+    "id": "42c6701a-03a9-4ab7-b22e-c81f9d89088c",
+    "data": [
+      {
+        "text": "about ",
+        "userDefined": false
+      },
+      {
+        "text": "5 years",
+        "alias": "duration",
+        "meta": "@sys.duration",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1532866915
+  },
+  {
+    "id": "a34c328b-12f5-47a0-8ba7-22b2a2c25e84",
+    "data": [
+      {
+        "text": "for ",
+        "userDefined": false
+      },
+      {
+        "text": "5 years",
+        "alias": "duration",
+        "meta": "@sys.duration",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1532866915
+  }
+]

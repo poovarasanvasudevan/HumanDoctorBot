@@ -1,0 +1,54 @@
+actions:
+- AskLocation
+- Bye
+- input.unknown
+- input.welcome
+- Greeting
+- Language
+- Location.Location-custom
+- Location
+intents:
+- AskLocation
+- Bye
+- Default Fallback Intent
+- Default Welcome Intent
+- Greeting
+- Language
+- Location - custom
+- Location
+templates:
+  AskLocation: []
+  Bye:
+  - text: Ok bye See you later
+  - text: Bye
+  - text: Good bye
+  Greeting:
+  - text: My name is Carebot
+  - text: Carebot
+  Language:
+  - text: i only know english
+  - text: No i don't know $language
+  Location:
+  - text: Ok good, it is great place to watch $location , how long you be in $location
+  - text: $location is a good place how long you be in $location
+  - text: $location is a great place , how long you be in $location
+  Location.Location-custom:
+  - text: Ohh, nice to see you be there for $duration
+  input.unknown:
+  - text: I didn't get that. Can you say it again?
+  - text: I missed what you said. What was that?
+  - text: Sorry, could you say that again?
+  - text: Sorry, can you say that again?
+  - text: Can you say that again?
+  - text: Sorry, I didn't get that. Can you rephrase?
+  - text: Sorry, what was that?
+  - text: One more time?
+  - text: What was that?
+  - text: Say that one more time?
+  - text: I didn't get that. Can you repeat?
+  - text: I missed that, say that again?
+  input.welcome:
+  - text: Hi! How are you doing?
+  - text: Hello! How I can help you?
+  - text: Good day! What can I do for you today?
+  - text: Greetings! How can I assist?

@@ -1,0 +1,47 @@
+{
+  "id": "8c428c1b-0bf0-402a-93b6-4912d9b91193",
+  "name": "Location",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "Location-followup",
+          "parameters": {},
+          "lifespan": 2
+        }
+      ],
+      "parameters": [
+        {
+          "id": "03912b78-2494-4cf5-a6a0-482224003300",
+          "required": false,
+          "dataType": "@sys.location",
+          "name": "location",
+          "value": "$location",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": [
+            "Ok good, it is great place to watch $location , how long you be in $location",
+            "$location is a good place how long you be in $location",
+            "$location is a great place , how long you be in $location"
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1532866983,
+  "fallbackIntent": false,
+  "events": []
+}

@@ -1,0 +1,68 @@
+[
+  {
+    "id": "a94d8adb-0cd5-4962-9c71-0ee69f92575a",
+    "data": [
+      {
+        "text": "can you speak ",
+        "userDefined": false
+      },
+      {
+        "text": "english",
+        "alias": "language",
+        "meta": "@sys.language",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1532865470
+  },
+  {
+    "id": "0f41437f-a4e8-4dcc-beb4-cb8a549df413",
+    "data": [
+      {
+        "text": "you know ",
+        "userDefined": false
+      },
+      {
+        "text": "english",
+        "alias": "language",
+        "meta": "@sys.language",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1532865470
+  },
+  {
+    "id": "49f13eaf-226b-4c14-b8dc-4e6aea435cb7",
+    "data": [
+      {
+        "text": "you can speak ",
+        "userDefined": false
+      },
+      {
+        "text": "french",
+        "alias": "language",
+        "meta": "@sys.language",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1532865470
+  },
+  {
+    "id": "16ba63e9-36da-4c5c-b057-796a05f09885",
+    "data": [
+      {
+        "text": "What language you know",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1532865470
+  }
+]

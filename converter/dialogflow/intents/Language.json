@@ -1,0 +1,38 @@
+{
+  "id": "998113dc-b932-4083-a37d-a731095e97ca",
+  "name": "Language",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "05c0ca15-a13e-447a-8651-cba4c0720aa6",
+          "dataType": "@sys.language",
+          "name": "language",
+          "value": "$language"
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": [
+            "i only know english",
+            "No i don\u0027t know $language"
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1532865470,
+  "fallbackIntent": false,
+  "events": []
+}

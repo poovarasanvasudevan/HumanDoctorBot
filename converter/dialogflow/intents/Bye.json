@@ -1,0 +1,32 @@
+{
+  "id": "53cca943-51c7-49a3-9242-ec607070b4f0",
+  "name": "Bye",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": [
+            "Ok bye See you later",
+            "Bye",
+            "Good bye"
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1532865830,
+  "fallbackIntent": false,
+  "events": []
+}
